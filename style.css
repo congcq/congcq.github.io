@@ -2,7 +2,7 @@
   background-color: #4CAF50; /* Green */
   border: none;
   border-radius: 45%;
-  with: 100px;
+  width: 75px;
   height: 45px;
   color: black;
   padding: 15px 32px;
@@ -16,7 +16,7 @@
   background-color: #F52626; /* Red */
   border: none;
   border-radius: 45%;
-  with: 100px;
+  width: 75px;
   height: 45px;
   color: black;
   padding: 15px 45px;
