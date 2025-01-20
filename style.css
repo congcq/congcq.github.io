@@ -1,39 +1,23 @@
-.greenbutton {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  border-radius: 30%;
-  height: 45px;
-  width: 100px;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10% auto;
-  cursor: pointer;
+body {
+font-family: "Chalkboard SE";
+font-size: 80%;
+background-image: url("minecraft2.png");
 }
-.redbutton {
-  background-color: #F52626; /* Red */
-  border: none;
-  border-radius: 30%;
-  height: 45px;
-  width: 100px;
-  color: black;
-  padding: 15px 45px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10% auto;
-  cursor: pointer;
 
-.greenbutton1 {font-size: 10px;}
-.greenbutton2 {font-size: 12px;}
-.greenbutton3 {font-size: 16px;}
-.greenbutton4 {font-size: 20px;}
-.greenbutton5 {font-size: 24px;}
+button {
+color: white;
+border-style: solid;
+border-radius: 20px 20px;
+border-color: black;
+background-color: gray;
+font-family: "Chalkboard SE";
+text-align: center;
+font-size: 200%;
+}
 
-.redbutton1 {font-size: 10px;}
-.redbutton2 {font-size: 12px;}
-.redbutton3 {font-size: 16px;}
-.redbutton4 {font-size: 20px;}
-.redbutton5 {font-size: 24px;}
+p {
+color: white;
+border-style: none;
+text-align: center;
+font-size: 250%;
+}
