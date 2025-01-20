@@ -1,10 +1,10 @@
-.body {
+body {
 font-family: "Chalkboard SE";
 font-size: 80%;
 background-image: url("https://img.upanh.tv/2025/01/20/EF6316C9-5834-498E-8A3F-EDC3DF927D29.jpg");
 }
 
-.button {
+button {
 color: white;
 border-style: solid;
 border-radius: 20px 20px;
@@ -15,7 +15,7 @@ text-align: center;
 font-size: 200%;
 }
 
-.p {
+p {
 color: white;
 border-style: none;
 text-align: center;
