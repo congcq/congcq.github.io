@@ -2,8 +2,7 @@ body {
 font-family: "Chalkboard SE";
 font-size: 80%;
 background-attachment: scroll;
-background-image: url("minecraft1.png");
-background-size: 100%;
+background-image: url("images/background_1.png");
 background-repeat:no-repeat;
 }
 
