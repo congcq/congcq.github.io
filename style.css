@@ -3,14 +3,14 @@ font-family: "Chalkboard SE";
 font-size: 80%;
 background-attachment: scroll;
 background-image: url("images/background_1.png");
-background-size: auto;
 background-repeat:no-repeat;
+margin: 20px 35px;
+text-align: center;
 }
 
 h1 {
 color: white;
-text-align: center;
-font-size: 500%;
+font-size: 300%;
 }
 
 button {
@@ -25,17 +25,9 @@ font-size: 200%;
 margin: auto;
 }
 
-.center {
+.text {
 color: white;
-border-style: none;
-text-align: center;
-font-size: 100%;
-}
-
-.fontsize{
-color: white;
-text-align: center;
-font-size: 200%;
+font-size: 150%;
 }
 
 .rounded {
