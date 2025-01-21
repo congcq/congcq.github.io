@@ -1,9 +1,9 @@
 body {
 font-family: "Chalkboard SE";
 font-size: 80%;
-background-image: url("https://img.upanh.tv/2025/01/20/EF6316C9-5834-498E-8A3F-EDC3DF927D29.jpg");
+background-attachment: scroll;
+background-image: url("minecraft1.png");
 background-size: 100%;
-/*background-position: center;*/
 background-repeat:no-repeat;
 }
 
@@ -14,23 +14,32 @@ font-size: 500%;
 }
 
 button {
-color: white;
+color: black;
 border-style: solid;
 border-radius: 20px 20px;
 border-color: black;
-background-color: gray;
+background-color: transparent;
 font-family: "Chalkboard SE";
 text-align: center;
 font-size: 200%;
-background-image: url("IMG_0026.JPG");
-background-size: 10%;
-background-position: 5%;
-background-repeat:no-repeat;
+margin: auto;
 }
 
-p {
+.center {
 color: white;
 border-style: none;
 text-align: center;
 font-size: 100%;
+}
+
+.fontsize{
+color: white;
+text-align: center;
+font-size: 200%;
+}
+
+.rounded {
+border-radius: 50%;
+width: 100px;
+height: 100px;
 }
