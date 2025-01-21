@@ -3,6 +3,7 @@ font-family: "Chalkboard SE";
 font-size: 80%;
 background-attachment: scroll;
 background-image: url("images/background_1.png");
+background-size: auto;
 background-repeat:no-repeat;
 }
 
