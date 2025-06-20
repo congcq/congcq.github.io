@@ -1,18 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<title>CongChu</title>
-<link rel='stylesheet' href='style.css'>
-<link rel="shortcut icon" href="images/CongChu.png" type="image/x-icon">
-<link rel="icon" href="images/CongChu.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CongChu's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<p><audio src="audio/hu_khong.mp3" controls loop type='audio/mp3'></audio></p>
-<h1>WELCOME!</h1>
-<p><img src='images/CongChu.png' alt="CongChu's avatar" title="CongChu's avatar" class='rounded'></p>
-<p class='text'>CongChu</p>
-<p><button type='button' onclick='location.href="https://www.mediafire.com/file/tgbmqq85man1csm/net.kdt.pojavlauncher-3.0-ios-trollstore.tipa/file"'>PojavLauncher iOS (TrollStore)</button></p>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="images/avatar.png" class="logo">MyPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Xin chào, tôi là <span class="highlight">Công Chu (congcq)</span></h1>
+                <h2>Học sinh THPT sắp thi tốt nghiệp</h2>
+                <a href="#projects" class="btn">Xem dự án</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/avatar.png" alt="Ảnh cá nhân">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Về <span>Tôi</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Tôi là ai?</h3>
+                    <p>Là một học sinh có sở thích phát triển ứng dụng di động và shader Minecraft. Tôi đam mê tạo ra những sản phẩm công nghệ có thể giải quyết các vấn đề thực tế và mang lại trải nghiệm người dùng tuyệt vời.</p>
+                    <p>Ngoài học tập, tôi thích tự tìm hiểu và học hỏi các ngôn ngữ lập trình, shader và thực hành với những template project thực tế.</p>
+                    <div class="info">
+                        <div class="info-item">
+                            <span>Tuổi:</span>
+                            <p>18</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Từ:</span>
+                            <p>Nam Định, Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Kỹ <span>Năng</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>OpenGL Shader Language</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="35"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>5%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="5"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Objective-C</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Swift</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="20"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Database</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="0"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Dự <span>Án</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Ứng dụng</button>
+                <button class="filter-btn" data-filter="design">Thiết kế</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Projects will be added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Liên <span>Hệ</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Hãy liên lạc với tôi</h3>
+<!--
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>nguyenvana@example.com</p>
+                    </div>
+-->
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Nam Định, Việt Nam</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://facebook.com/CongChu2007"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://discord.gg/nUpEeqRBqR"><i class="fab fa-discord"></i></a>
+<!--
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+-->
+                        <a href="https://github.com/congcq"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy;CongChu 2025 Portfolio. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
