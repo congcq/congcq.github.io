@@ -101,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Sample projects data
     const projects = [
+/*
         {
             title: "Website Thương Mại Điện Tử",
             description: "Một trang web thương mại điện tử đầy đủ tính năng với hệ thống thanh toán trực tuyến.",
@@ -137,17 +138,18 @@ document.addEventListener('DOMContentLoaded', function() {
             demo: "#",
             code: "#"
         },
+*/
         {
             title: "PojavLauncher Patch (iOS)",
             description: "PojavLauncher Patch dành cho iOS, giúp người chơi Minecraft: Java Edition có thể dùng tài khoản nội bộ chơi mà không cần tài khoản đã mua Minecraft.",
-            image: "images/PojavLauncher-Patch.png",
-            tags: ["JavaScript", "API", "CSS"],
+            image: "images/PojavLauncher-Patch-Logo.png",
+            tags: ["Objective-C", "Java"],
             category: "app",
-            demo: "#",
-            code: "#"
+            //demo: "#",
+            code: "https://github.com/congcq/PojavLauncher-iOS-Patch"
         },
         {
-            title: "Logo và Nhận diện Thương hiệu",
+            title: "Logo và Nhận diện Thương hiệu (chưa có)",
             description: "Thiết kế bộ nhận diện thương hiệu bao gồm logo, màu sắc và phong cách chữ.",
             image: "https://via.placeholder.com/600x400?text=Branding",
             tags: ["Illustrator", "Branding"],
