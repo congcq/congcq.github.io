@@ -1,14 +1,26 @@
+Name: vtool
+Description: Unofficial vtool ported from macOS to iOS
+Author: Apple Inc.
 Package: com.congcq.vtool
 Architecture: iphoneos-arm64
 Version: 2.1.0
 Section: Development
-Maintainer: CongChu
-Depends: libcodedirectory
+Depends: libcodedirectory (>= 4.0)
 Filename: ./rootless/vtool_2.1.0_iphoneos-arm64.deb
-Name: vtool
-Description: unofficial vtool ported from macOS to iOS
-Author: Apple Inc.
 Size: 20172
 MD5sum: 820d19b50e1596f3cf9ef73e4b89d52c
 SHA1: f26d20c35e65fda69c006db048df3a0b0630c641
 SHA256: 8facf54b20c44695f3561bd710249d65e2747a8124de2a5e1f70ce1ba1f0f228
+
+Name: libcodedirectory
+Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
+Author: Apple Inc.
+Package: com.congcq.libcodedirectory
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Development
+Filename: ./rootless/libcodedirectory_4.0_iphoneos-arm64.deb
+Size: 15440
+MD5sum: cc11699b5965f809a2a0310862a50762
+SHA1: 250ee387f485ae547e9a5b1b31a56a89104d3c68
+SHA256: b8f5f9efdecef548ad82c9d51173280126c2e9f05229a3c4562b9d61f75b1ec2

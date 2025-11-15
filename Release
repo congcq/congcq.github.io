@@ -2,6 +2,6 @@ Origin: CongChu's Repository
 Suite: stable
 Version: 1.0
 Codename: ios
-Label: iPhone/Pad-Jailbreak
+Label: CongChu's Repository
 Architectures: iphoneos-arm64
 Components: main
