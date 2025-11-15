@@ -1,7 +1,7 @@
 Origin: CongChu's Repository
-Suite: stable
-Version: 1.0
-Codename: ios
 Label: CongChu's Repository
+Version: 1.0
 Architectures: iphoneos-arm64
+Suite: stable
+Codename: ios
 Components: main
