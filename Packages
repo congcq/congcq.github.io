@@ -5,7 +5,7 @@ Package: com.congcq.vtool
 Architecture: iphoneos-arm64
 Version: 2.1.0
 Section: Development
-Depends: libcodedirectory (>= 4.0)
+Depends: com.congcq.libcodedirectory (>= 4.0)
 Filename: ./rootless/vtool_2.1.0_iphoneos-arm64.deb
 Size: 20172
 MD5sum: 820d19b50e1596f3cf9ef73e4b89d52c
