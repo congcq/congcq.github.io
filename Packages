@@ -12,6 +12,20 @@ MD5sum: 8b95236771fbfd96b91f5c25a21386ae
 SHA1: 3aa3ed9a13a0dc3c482359ebad0eec2ffccd32a6
 SHA256: 1fee2a806b7749eaad1708ec26efd5e8365d14ee42a0a1f936515776ade04127
 
+Name: vtool
+Description: Unofficial vtool ported from macOS to iOS.
+Maintainer: congcq
+Package: com.congcq.vtool
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Section: Development
+Depends: com.congcq.libcodedirectory (>= 4.0)
+Filename: ./rootful/com.congcq.vtool_2.1.0_iphoneos-arm.deb
+Size: 20144
+MD5sum: 3535fe3996675e5233e2f48a80c78bce
+SHA1: 3ec91481b1a7240e9d31200af54e343f49d3ce68
+SHA256: c087be40b75962e03cf0fd333616b289dd0eece05bba671fff68e2001dca7d60
+
 Name: libcodedirectory
 Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
 Maintainer: congcq
@@ -24,3 +38,16 @@ Size: 15428
 MD5sum: 3e294edc341edd97fab5ec7a2bf274a0
 SHA1: 362cd10c7b106cd094c27a64034b7e05c1e4b3a6
 SHA256: d14f839c60063d93806506f9c458a240601baf37fbfa5d43990ec42717b6d936
+
+Name: libcodedirectory
+Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
+Maintainer: congcq
+Package: com.congcq.libcodedirectory
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Development
+Filename: ./rootful/com.congcq.libcodedirectory_4.0_iphoneos-arm.deb
+Size: 15376
+MD5sum: 27aeb192603dcf080b56fb8a27b5c370
+SHA1: 670d0060a654e4135fb6442259cd7ac079fa5728
+SHA256: 6f79be30137aea1174147601848961ef17fcc6a1fc073823e406e26aae3eacb7
