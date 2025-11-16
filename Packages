@@ -16,7 +16,7 @@ Name: vtool
 Description: Unofficial vtool ported from macOS to iOS.
 Maintainer: congcq
 Package: com.congcq.vtool
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 2.1.0
 Section: Development
 Depends: com.congcq.libcodedirectory (>= 4.0)
@@ -43,7 +43,7 @@ Name: libcodedirectory
 Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
 Maintainer: congcq
 Package: com.congcq.libcodedirectory
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 4.0
 Section: Development
 Filename: ./rootful/com.congcq.libcodedirectory_4.0_iphoneos-arm.deb
