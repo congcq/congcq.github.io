@@ -51,3 +51,33 @@ Size: 15376
 MD5sum: 27aeb192603dcf080b56fb8a27b5c370
 SHA1: 670d0060a654e4135fb6442259cd7ac079fa5728
 SHA256: 6f79be30137aea1174147601848961ef17fcc6a1fc073823e406e26aae3eacb7
+
+Name: Java 8
+Description: 
+Maintainer: congcq
+Author: congcq
+Package: java-8-openjdk
+Version: 1.8
+Section: Development
+Filename: ./rootless/java-8-openjdk_1.8_iphoneos-arm64.deb
+Size: 10381800
+Installed-Size: 48230
+MD5sum: b396bc6443bbcf84667f149a305d156e
+SHA1: 0fd532ba8cd1949ad2702e2c278f477dd020a9ca
+SHA256: 99ebde23f43dbfbd357bbfa2def1feb6e436d33467d9587043c75d37330359dc
+SHA512: 5ded99aac6ed0fa686c8c01bd03647dd2db0705a2a3f5f7a7cca04662b15e417ae8e452bdbd4a4a1e360f80e7fd7a0ffc1563795e3e88376cfad569c904ed61c
+
+Name: JRE 8
+Description: 
+Maintainer: congcq
+Author: congcq
+Package: java-8-jre
+Version: 1.8
+Section: Development
+Filename: ./rootless/java-8-jre_1.8_iphoneos-arm64.deb
+Size: 27653656
+Installed-Size: 102912
+MD5sum: 2ad082af9c5ad6dedfc61c03881edc38
+SHA1: d1563a24dcb84e86af8c53f0b2c741390197fc48
+SHA256: b1452491f56279682baa81a644faff7cb743e2d02cf6b0d8c8d6b80a7939eeaf
+SHA512: 482a65d11a768af830c2f511a5f16c2b23f1f74459cf742551387c6df0b0239bb2c646573ce3741e89a10ef094941e6f7ba7a6d9dd8a11b4dfaebcacded9cba0
