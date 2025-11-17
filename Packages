@@ -58,6 +58,7 @@ Maintainer: congcq
 Author: congcq
 Package: java-8-openjdk
 Version: 1.8
+Architecture: iphoneos-arm64
 Section: Development
 Filename: ./rootless/java-8-openjdk_1.8_iphoneos-arm64.deb
 Size: 10381800
@@ -73,6 +74,7 @@ Maintainer: congcq
 Author: congcq
 Package: java-8-jre
 Version: 1.8
+Architecture: iphoneos-arm64
 Section: Development
 Filename: ./rootless/java-8-jre_1.8_iphoneos-arm64.deb
 Size: 27653656
