@@ -53,12 +53,13 @@ SHA1: 670d0060a654e4135fb6442259cd7ac079fa5728
 SHA256: 6f79be30137aea1174147601848961ef17fcc6a1fc073823e406e26aae3eacb7
 
 Name: Java 8
-Description: 
+Description: Java Development Kit (JDK). OpenJDK is a development environment for building applications, applets, and components using the Java programing language.
 Maintainer: congcq
 Author: congcq
 Package: java-8-openjdk
 Version: 1.8
 Architecture: iphoneos-arm64
+Depends: java-8-jre
 Section: Development
 Filename: ./rootless/java-8-openjdk_1.8_iphoneos-arm64.deb
 Size: 10381800
@@ -69,7 +70,7 @@ SHA256: 99ebde23f43dbfbd357bbfa2def1feb6e436d33467d9587043c75d37330359dc
 SHA512: 5ded99aac6ed0fa686c8c01bd03647dd2db0705a2a3f5f7a7cca04662b15e417ae8e452bdbd4a4a1e360f80e7fd7a0ffc1563795e3e88376cfad569c904ed61c
 
 Name: JRE 8
-Description: 
+Description: Java Runtime Environment (JRE): Minimal Java runtime - needed for executing non GUI Java programs.
 Maintainer: congcq
 Author: congcq
 Package: java-8-jre
