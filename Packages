@@ -294,6 +294,32 @@ Description: Performing reflection and disassembling SPIR-V
 Tag: purpose::console, role::hacker
 Name: SPIRV-Cross
 
+Package: spirv-headers
+Architecture: all
+Version: 1.6.1+1.3.283.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Installed-Size: 2932
+Filename: ./rootful/spirv-headers_1.6.1+1.3.283.0-1_all.deb
+Size: 118460
+MD5sum: 1795dc4821ba3d84ea996375edb13a91
+SHA1: b43214014f28e8f9b121209dc1dec5143feca1fc
+SHA256: 1e5306f1c09de640f5ffd81158e175dda0e4aaeff477a49f182c528f268f71e1
+SHA512: 527dd4d11787daa5b01adb7a380e8682cd691caf22022a85653aac94f358795605d179cf11ac1a61b18d8b383d8bbe047c009df2015b73d549b22a6dd326b6b9
+Homepage: https://github.com/KhronosGroup/SPIRV-Headers
+Description: Machine-readable files for the SPIR-V Registry
+ This package includes:
+  - Header files for various languages
+  - JSON files describing the grammar for the SPIR-V core instruction
+    set and the extended instruction sets.
+  - The XML registry file.
+ .
+ For more info, see https://github.com/KhronosGroup/SPIRV-Headers
+Tag: purpose::library, role::hacker
+Name: SPIR-V Headers
+
 Package: spirv-tools
 Architecture: iphoneos-arm
 Version: 2023.2
@@ -311,6 +337,51 @@ Homepage: https://github.com/KhronosGroup/SPIRV-Tools
 Description: API and commands for processing SPIR-V modules
 Tag: purpose::console, role::developer
 Name: SPIR-V Tools
+
+Package: vulkan-loader
+Architecture: iphoneos-arm
+Version: 1.3.249
+Multi-Arch: foreign
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: libvulkan1 (= 1.3.249), libvulkan-dev (= 1.3.249), vulkan-headers (= 1.3.249)
+Depends: librecompat
+Conflicts: libvulkan1, libvulkan-dev, vulkan-headers
+Replaces: libvulkan1, libvulkan-dev, vulkan-headers
+Filename: ./rootful/vulkan-loader_1.3.249_iphoneos-arm.deb
+Size: 1369092
+MD5sum: d4c6c5a8ea8951c9640f34205f7ba936
+SHA1: 46d50abb8fc61da912b2a628214443372afafe65
+SHA256: b1538be8c901790d8f847238fc557dbe6d4ccd81be866b037b911c632fe0c574
+SHA512: 4a60a2c4d2b74f53c2e736674bbe66508c1342b83cfc5eba8d89ee51bc235fed3ff53fc27c6fb1b216225525717f386c6c32fb48f66c5df28726a195756d28bd
+Homepage: https://github.com/KhronosGroup/Vulkan-Loader
+Description: Vulkan ICD Loader
+ Notice: This package included Vulkan Headers
+Tag: purpose::library, role::developer
+Name: Vulkan Loader
+
+Package: vulkan-loader
+Architecture: iphoneos-arm
+Version: 1.3.268.0-2
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: libvulkan-dev (= 1.3.268.0-2), libvulkan1 (= 1.3.268.0-2), vulkan.framework (= 1.3.268.0-2), vulkan-headers (= 1.3.268.0-2)
+Depends: libx11-6, libxcb1
+Recommends: mesa-vulkan-drivers | vulkan-icd, wayland
+Conflicts: libvulkan-dev, libvulkan1, vulkan.framework, vulkan-headers
+Replaces: libvulkan-dev, libvulkan1, vulkan.framework, vulkan-headers
+Filename: ./rootful/vulkan-loader_1.3.268.0-2_iphoneos-arm.deb
+Size: 1483120
+MD5sum: 578a61cebe18be7abfdaa4e1e5a358e6
+SHA1: cc45f833af16374b5a131e0c06b583b2276fd29c
+SHA256: 8c0b316e5ac8288dab945c87c6bc20e9e094879c627fdedf8d86979adcf5ea3d
+SHA512: 343b38fa138a652525382066d2891e17b8b8a393ffd010726ca1e7af5e9bf3feba6434143dac01aee7edfd6ce9c09ad2d261338dd0d03925e93935dd3df18da9
+Homepage: https://github.com/KhronosGroup/Vulkan-Loader
+Description: Vulkan ICD Loader
+Tag: purpose::library, role::developer
+Name: Vulkan Loader
 
 Package: com.apple.terminal
 Architecture: iphoneos-arm64
