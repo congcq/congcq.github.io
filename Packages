@@ -42,6 +42,22 @@ SHA512: ba87f7b7cfcf53ce6e6568e87741c0a9f26e6fb6a009ab7a0accdf27b36633903660a48a
 Description: Unofficial vtool ported from macOS to iOS.
 Name: vtool
 
+Package: java-8-openjdk
+Architecture: iphoneos-arm
+Version: 1.8
+Section: Development
+Maintainer: congcq
+Installed-Size: 151142
+Filename: ./rootful/java-8-openjdk_1.8_iphoneos-arm.deb
+Size: 37756120
+MD5sum: 4e598be4e160dce86d4b999a30b896a5
+SHA1: 699ca9e853fa12767ff46e6005a059456e669f98
+SHA256: e4b0cb0596adeb92f17236bef5327e74ef57ef5d527eae4ba05e9e374717207c
+SHA512: f96dbf0c46977f493b162445fe9ed2e1889f719ec866abd9a62bbce662caa1418b90d77271afa37f175a47549d10c7a78c2389721594f788cbe76f2d855ad756
+Description: Java Development Kit (JDK). OpenJDK is a development environment for building applications, applets, and components using the Java programing language.
+Name: Java 8
+Author: congcq
+
 Package: com.apple.terminal
 Architecture: iphoneos-arm64
 Version: 1.11.2
