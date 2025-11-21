@@ -74,6 +74,111 @@ Description: Java Development Kit (JDK). OpenJDK is a development environment fo
 Name: Java 8
 Author: congcq
 
+Package: librecompat
+Architecture: iphoneos-arm
+Version: 0.0.0.001
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: librecompat0, librecompat-dev
+Pre-Depends: firmware (>= 13.0)
+Depends: libiosexec1 | libiosexec
+Filename: ./rootful/librecompat_0.0.0.001_iphoneos-arm.deb
+Size: 68080
+MD5sum: 64c0f2408521610ff27593d029411006
+SHA1: b7a193fb2527f4a470b7880012572e27a8a4d584
+SHA256: 0ea3b5fda73635361eb00b988ec6ec73cc03fb857465198e76525feae8e739e6
+SHA512: 3c309194c6c832a8dfc5cfc23fb4d0abf268feaa9b61ed01f335c0aca10ec593ab14002b5a5f81f40d4054e926d63a40247d11f1c34b54c11b1eb301d9e457e3
+Homepage: https://github.com/Torrekie/librecompat
+Description: Re-implemented Compatibility Layer, based on our huge community
+Tag: purpose::library, role::developer
+Name: librecompat
+
+Package: shaderc
+Architecture: iphoneos-arm
+Version: 2023.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: glslc (= 2023.2-1), libshaderc-dev (= 2023.2-1), libshaderc1 (= 2023.2-1)
+Depends: librecompat
+Conflicts: glslc, libshaderc-dev, libshaderc1
+Replaces: glslc, libshaderc-dev, libshaderc1
+Filename: ./rootful/shaderc_2023.2-1_iphoneos-arm.deb
+Size: 1689844
+MD5sum: f6c1c81c9b3cad10b0d8c5bfcdc2f3d0
+SHA1: 0f6d4cd2617c8e71299cac8459b50f2cdaa9a6d8
+SHA256: 04c9a101aa0b479af499b55d63ebaf2ad11031e0c1a52442f99bf14a6f13143c
+SHA512: 5445a3045c0196682589475735b3f7e0cf3cc4a7b4841e4319c3e866089215e08aff0fda45e4edc6ab1ebfcac07e69293c48e895328e67698a24a425b0e7f9a9
+Homepage: https://github.com/google/shaderc/
+Description: Collection of tools, libraries, and tests for Vulkan shader compilation
+Tag: purpose::console, role::developer
+Name: Shaderc
+
+Package: shaderc
+Architecture: iphoneos-arm
+Version: 2024.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: glslc (= 2024.1-1), libshaderc-dev (= 2024.1-1), libshaderc1 (= 2024.1-1)
+Depends: librecompat
+Conflicts: glslc, libshaderc-dev, libshaderc1
+Replaces: glslc, libshaderc-dev, libshaderc1
+Filename: ./rootful/shaderc_2024.1-1_iphoneos-arm.deb
+Size: 1556316
+MD5sum: 76bfecd449746c40c90866e4f9130a43
+SHA1: 86cccfd2c72c197f18b76563fc0bbf33332e1732
+SHA256: 96629bb41c69bd9f78a15600e6a13353c003fa385dc6d7a1a8415ec01397b2bb
+SHA512: e441356f76f3c917a5ceb939c550e286af4be8d22747817adf918500ea5cbd0eaf6aa14fc7ba42d9c537ad7e1576bf16f947615b84f4a55dce87ac60dcb58bf5
+Homepage: https://github.com/google/shaderc/
+Description: Collection of tools, libraries, and tests for Vulkan shader compilation
+Tag: purpose::console, role::developer
+Name: Shaderc
+
+Package: spirv-cross
+Architecture: iphoneos-arm
+Version: 2022.03.14+1.3.243.0-1
+Multi-Arch: foreign
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: libspirv-cross-c-shared0 (= 2022.03.14+1.3.243.0-1), libspirv-cross-c-shared-dev (= 2022.03.14+1.3.243.0-1)
+Depends: librecompat
+Conflicts: libspirv-cross-c-shared0, libspirv-cross-c-shared-dev
+Replaces: libspirv-cross-c-shared0, libspirv-cross-c-shared-dev
+Filename: ./rootful/spirv-cross_2022.03.14+1.3.243.0-1_iphoneos-arm.deb
+Size: 1620728
+MD5sum: 07c220f11c51b511e2d70d03c4e91dc3
+SHA1: 7f25de07849042a8e0fc1e51cc5a2fe1cb28d953
+SHA256: 4b0a21be4b48a42ea83da53b2272c978227997343e34e5d58cde3f29f2345ad8
+SHA512: 71497f43a4a169f374ec08584f4859fa540bd2785bbf35f77bba38c96d2f5d8f7e089542284565dc1bffa8fca1f6436f585a40c105b773d2268a42763c7b48af
+Homepage: https://github.com/KhronosGroup/SPIRV-Cross
+Description: Performing reflection and disassembling SPIR-V
+Tag: purpose::console, role::hacker
+Name: SPIRV-Cross
+
+Package: spirv-tools
+Architecture: iphoneos-arm
+Version: 2023.2
+Multi-Arch: foreign
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: librecompat
+Filename: ./rootful/spirv-tools_2023.2_iphoneos-arm.deb
+Size: 3113384
+MD5sum: 36fcaade90112945d69d96cd36253d8f
+SHA1: f3ca7bc489476159daa0dd202d4cf6ae65b517e7
+SHA256: 08e9d08cabd0a97293a0f392b19ebc4d2f08e17ba0686a0a9ee3195b3e37f79f
+SHA512: 3aaaba67d5acc2e5c739d427f11d016d5882fe602fceefa693c1e6ec463225660f969ac02e9b39c21c656e4d94a7301da12cf4e13adba2b76e69ee06d7358f26
+Homepage: https://github.com/KhronosGroup/SPIRV-Tools
+Description: API and commands for processing SPIR-V modules
+Tag: purpose::console, role::developer
+Name: SPIR-V Tools
+
 Package: com.apple.terminal
 Architecture: iphoneos-arm64
 Version: 1.11.2
