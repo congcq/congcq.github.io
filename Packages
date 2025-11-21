@@ -138,6 +138,30 @@ Description: Re-implemented Compatibility Layer, based on our huge community
 Tag: purpose::library, role::developer
 Name: librecompat
 
+Package: mesa
+Architecture: iphoneos-arm
+Version: 24.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: X_Window
+Maintainer: Torrekie <me@torrekie.dev>
+Installed-Size: 65892
+Provides: libegl-mesa0 (= 24.2.0-3), libegl1-mesa-dev (= 24.2.0-3), libgl1-mesa-dev (= 24.2.0-3), libglapi-mesa (= 24.2.0-3), libgles2-mesa-dev (= 24.2.0-3), libglx-mesa0 (= 24.2.0-3), libosmesa6 (= 24.2.0-3), libosmesa6-dev (= 24.2.0-3), mesa-common-dev (= 24.2.0-3), mesa-libgallium (= 24.2.0-3), mesa-opencl-standalone (= 24.2.0-3), mesa-teflon-delegate (= 24.2.0-3)
+Depends: libllvm16, libzstd1, libllvmspirvlib16, libc++1-16, libxcb-dri3-0 (>= 1.13), libx11-6 (>= 1.4.99.1), libx11-xcb1 (>= 1.8.7), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-randr0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.9.2), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libwayland-client0 (>= 1.22.0), libwayland-server0 (>= 1.15.0)
+Conflicts: libegl-mesa0, libegl1-mesa-dev, libgl1-mesa-dev, libglapi-mesa, libgles2-mesa-dev, libglx-mesa0, libosmesa6, libosmesa6-dev, mesa-common-dev, mesa-libgallium, mesa-opencl-standalone, mesa-teflon-delegate
+Replaces: libegl-mesa0, libegl1-mesa-dev, libgl1-mesa-dev, libglapi-mesa, libgles2-mesa-dev, libglx-mesa0, libosmesa6, libosmesa6-dev, mesa-common-dev, mesa-libgallium, mesa-opencl-standalone, mesa-teflon-delegate
+Filename: ./rootful/mesa_24.2.0-3_iphoneos-arm.deb
+Size: 11728332
+MD5sum: a0c1ea7131d1132988e51e97d3e2c3c4
+SHA1: 43af1e3258298ff176c4741c97c40e2c4692ab16
+SHA256: 728ec5522896953461c6dbaff05382cf49ef04e0f063f8d79c7e80f2758fcc84
+SHA512: eea46f53e4224bfe0245c29566bc5f91d9e1f2718fc29856fe0dc0fd09e5048f2b4f1484dd832b4b9571b91f47eb72ed5708fd93d0144945f00291aa167b110a
+Homepage: https://mesa3d.org/
+Description: Graphics Library
+ Notice: Wayland related features may not work (since it highly bounded with libdrm)
+Tag: purpose::library, role::developer
+Name: Mesa
+
 Package: shaderc
 Architecture: iphoneos-arm
 Version: 2023.2-1
