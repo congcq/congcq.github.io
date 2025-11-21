@@ -1,48 +1,4 @@
 Package: com.apple.terminal
-Architecture: iphoneos-arm
-Version: 1.11.2
-Section: Applications
-Maintainer: Apple Inc.
-Filename: ./rootful/com.apple.terminal_1.11.2_iphoneos-arm.deb
-Size: 18354312
-MD5sum: 461ebd2b87f3b2308531abd0a66aa63e
-SHA1: 28be450bb9dbfdaf744586c8d79d42e680444551
-SHA256: c282cfbb6ba5eaf6c4542076a166eaa2c411415ffac97cb02a9d29e2cabc0be2
-SHA512: 45b10bddf383d0d960ff7aa7f4f7ace2d66cf80806f062edee5c102db39740b185793c1e5cfaed8234943c834ea9debe59c45fddf0105d10a6c63cf90bdd2d84
-Description: Secret Native Apple Terminal for iOS
-Name: Terminal
-Author: Tim Apple
-
-Package: com.congcq.libcodedirectory
-Architecture: iphoneos-arm
-Version: 4.0
-Section: Development
-Maintainer: congcq
-Filename: ./rootful/com.congcq.libcodedirectory_4.0_iphoneos-arm.deb
-Size: 15376
-MD5sum: 27aeb192603dcf080b56fb8a27b5c370
-SHA1: 670d0060a654e4135fb6442259cd7ac079fa5728
-SHA256: 6f79be30137aea1174147601848961ef17fcc6a1fc073823e406e26aae3eacb7
-SHA512: 041ed0ff9d5fc9344eeb7e0adca9e36c17b53096a2f50ba438a617ae79872f54ecceb91d5d221d0a3362c251b51cede41b0010e2dcf35e6f867e6e3a53eacb54
-Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
-Name: libcodedirectory
-
-Package: com.congcq.vtool
-Architecture: iphoneos-arm
-Version: 2.1.0
-Section: Development
-Maintainer: congcq
-Depends: com.congcq.libcodedirectory (>= 4.0)
-Filename: ./rootful/com.congcq.vtool_2.1.0_iphoneos-arm.deb
-Size: 20144
-MD5sum: 3535fe3996675e5233e2f48a80c78bce
-SHA1: 3ec91481b1a7240e9d31200af54e343f49d3ce68
-SHA256: c087be40b75962e03cf0fd333616b289dd0eece05bba671fff68e2001dca7d60
-SHA512: ba87f7b7cfcf53ce6e6568e87741c0a9f26e6fb6a009ab7a0accdf27b36633903660a48a6134335fa02973f4fad3254c590fa2b33b34c76cd7c2af7162abb98a
-Description: Unofficial vtool ported from macOS to iOS.
-Name: vtool
-
-Package: com.apple.terminal
 Architecture: iphoneos-arm64
 Version: 1.11.2
 Section: Applications

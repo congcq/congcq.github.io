@@ -94,7 +94,7 @@ echo "{}]" >> all.pkgs
 echo "------------------"
 echo "Building Packages...."
 apt-ftparchive packages ./rootful > ./Packages;
-apt-ftparchive packages ./rootless > ./Packages;
+apt-ftparchive packages ./rootless >> ./Packages;
 #sed -i -e '/^SHA/d' ./Packages;
 bzip2 -c9k ./Packages > ./Packages.bz2;
 echo "------------------"
