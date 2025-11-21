@@ -58,6 +58,31 @@ SHA512: ba87f7b7cfcf53ce6e6568e87741c0a9f26e6fb6a009ab7a0accdf27b36633903660a48a
 Description: Unofficial vtool ported from macOS to iOS.
 Name: vtool
 
+Package: cpp-13
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3), libgmp10 (>= 6.3.0), libisl23 (>= 0.15), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libzstd1 (>= 1.5.5)
+Suggests: cpp-13-doc (>= 13), gcc-13-locales (>= 13)
+Filename: ./rootful/cpp-13_13.2.0-3_iphoneos-arm.deb
+Size: 11539860
+MD5sum: b850ecd1dc8e00a06f667f31692d6828
+SHA1: 2a94062bfbd17e1a7b764157aab289f32ffa1b5d
+SHA256: a230cf872e4b36ad59756245f188bc4aff8f7219140649db5586cc45f6459d50
+SHA512: 470e2379205e4ac190c2c2322c55ff18be26ae36e712baf5a195f45a625fac05a016fbb9a2edcd59db8fc22f50135b5b604722f0db013162f9c5863abac16289
+Homepage: http://gcc.gnu.org/
+Description: GNU C preprocessor
+ A macro processor that is used automatically by the GNU C compiler
+ to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+Tag: purpose::console, role::developer
+Name: GCC 13 C Preprocessor
+
 Package: gcc-13-base
 Architecture: all
 Version: 13.2.0-3
@@ -159,6 +184,27 @@ SHA512: f96dbf0c46977f493b162445fe9ed2e1889f719ec866abd9a62bbce662caa1418b90d772
 Description: Java Development Kit (JDK). OpenJDK is a development environment for building applications, applets, and components using the Java programing language.
 Name: Java 8
 Author: congcq
+
+Package: libgcc-13-dev
+Architecture: all
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3), libatomic1 (>= 13.2.0-3), libgcc-s1 (>= 13.2.0-3), libgomp1 (>= 13.2.0-3), libitm1 (>= 13.2.0-3), libquadmath0 (>= 13.2.0-3)
+Filename: ./rootful/libgcc-13-dev_13.2.0-3_all (1).deb
+Size: 2816500
+MD5sum: 6deec7cd0e8a94c1851c887118025e84
+SHA1: 12e3991165337ad9a11b09212e2de6008e66be7e
+SHA256: f28e3391495e5ae3fca3f23ce324c1f9751984c9615424464acfda8710ebad17
+SHA512: 0236851a2ceba189eefca2033bd644bb4c072c01030a4de31393cfbdaa2b559d8b180fcc864bfedbf7da63a99695e9170c3f75b18404098f7f6a6530a983a7dd
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (development files)
+ This package contains the headers and static library files necessary for
+ building C programs which use libgcc, libgomp, libquadmath, libssp or libitm.
+Tag: purpose::library, role::developer
+Name: GCC 13 Headers
 
 Package: libgcc-13-dev
 Architecture: all
@@ -282,6 +328,33 @@ Homepage: https://github.com/Torrekie/librecompat
 Description: Re-implemented Compatibility Layer, based on our huge community
 Tag: purpose::library, role::developer
 Name: librecompat
+
+Package: libstdc++6
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3), libgcc-s1 (>= 13.2.0-3)
+Conflicts: scim (<< 1.4.2-1)
+Replaces: libstdc++6-13-dbg (<< 4.9.0-3)
+Filename: ./rootful/libstdc++6_13.2.0-3_iphoneos-arm.deb
+Size: 715904
+MD5sum: 0640e844c8e5fb9e9005d18f9471fa54
+SHA1: cd2f356553e54585b5d65ff60e7d1516d28b6af0
+SHA256: db22648ab33512878f03e6270ee6ca1d7be64b1814e31107f756e7b84d7401e9
+SHA512: 53fb03057b62eeda6aa1b062d12a60d41d3dc7c1d23a3158342793f185a481d4914ad99ec4d36a64aaa448a7a13cd6a980a856be906439d7a4716dbbeebf9546
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+Tag: purpose::library, role::developer
+Name: GCC 13 libstdc++
 
 Package: mesa
 Architecture: iphoneos-arm
