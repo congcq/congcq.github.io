@@ -58,6 +58,50 @@ SHA512: ba87f7b7cfcf53ce6e6568e87741c0a9f26e6fb6a009ab7a0accdf27b36633903660a48a
 Description: Unofficial vtool ported from macOS to iOS.
 Name: vtool
 
+Package: gcc-13-base
+Architecture: all
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Filename: ./rootful/gcc-13-base_13.2.0-3_all.deb
+Size: 888
+MD5sum: e6d04e783d130e623cac49ca21bda3d6
+SHA1: 5ab5e9a3ec02db81c7ed6db792c5336ed829c2a0
+SHA256: e2b5a667fadadc709c09c6637b9720b8208b1ca42baa43617f8667ac8ed2b8f8
+SHA512: 3125ccc68eeade9f01c4105bf7006d866d3678fce952b50e5f994caac541ce6f4fa87ea9fa2b6a3761e14f3c8cbb91308eac6fb9cfd76156b4c5dcda9c011e7f
+Homepage: http://gcc.gnu.org/
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+ .
+ (Actually nothing here I guess)
+Tag: purpose::library, role::developer
+Name: GCC 13 Base
+
+Package: gcc-13
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: c-compiler
+Depends: odcctools (>= 1009.2), cpp-13 (= 13.2.0-3), gcc-13-base (= 13.2.0-3), libgcc-13-dev (= 13.2.0-3), libgcc-s1 (>= 3.0), libgmp10 (>= 6.3.0), libisl23 (>= 0.15), libmpc3 (>= 1.1.0), libmpfr6 (>= 3.1.3), libstdc++6 (>= 5), libzstd1 (>= 1.5.5)
+Suggests: gcc-13-doc (>= 13), gcc-13-locales (>= 13)
+Filename: ./rootful/gcc-13_13.2.0-3_iphoneos-arm.deb
+Size: 23182344
+MD5sum: e6dec16281fda364d9af7f35d5d70b45
+SHA1: 1a6ac933e98da04a7644166a46a538fa03cd5271
+SHA256: f4a6d836cfc4c9d03b45f9d8bfabbb7e49db46db3ae95c995d982eeca473172e
+SHA512: d33fa58f7497bd095817b46986c6feabe5eac5d6c13741fefc1c97871803d904f5e340406a395548a1a7c315798d0cbe7384e42dac56fdf10eaa5c7ade0863aa
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+Tag: purpose::console, role::developer
+Name: GCC 13 Compiler
+
 Package: glslang
 Architecture: iphoneos-arm
 Version: 12.1.0
@@ -115,6 +159,85 @@ SHA512: f96dbf0c46977f493b162445fe9ed2e1889f719ec866abd9a62bbce662caa1418b90d772
 Description: Java Development Kit (JDK). OpenJDK is a development environment for building applications, applets, and components using the Java programing language.
 Name: Java 8
 Author: congcq
+
+Package: libgcc-13-dev
+Architecture: all
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3), libatomic1 (>= 13.2.0-3), libgcc-s1 (>= 13.2.0-3), libgomp1 (>= 13.2.0-3), libitm1 (>= 13.2.0-3), libquadmath0 (>= 13.2.0-3)
+Filename: ./rootful/libgcc-13-dev_13.2.0-3_all.deb
+Size: 2816500
+MD5sum: 6deec7cd0e8a94c1851c887118025e84
+SHA1: 12e3991165337ad9a11b09212e2de6008e66be7e
+SHA256: f28e3391495e5ae3fca3f23ce324c1f9751984c9615424464acfda8710ebad17
+SHA512: 0236851a2ceba189eefca2033bd644bb4c072c01030a4de31393cfbdaa2b559d8b180fcc864bfedbf7da63a99695e9170c3f75b18404098f7f6a6530a983a7dd
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (development files)
+ This package contains the headers and static library files necessary for
+ building C programs which use libgcc, libgomp, libquadmath, libssp or libitm.
+Tag: purpose::library, role::developer
+Name: GCC 13 Headers
+
+Package: libgcc-s1
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3)
+Filename: ./rootful/libgcc-s1_13.2.0-3_iphoneos-arm.deb
+Size: 28624
+MD5sum: d84851ab8e81910d6fa44690ceefb6a4
+SHA1: 8262e1047459a717b4ac078d4c2c8d75fc87e9ad
+SHA256: 37283a95500051797b3403b323b395c0442a3756f89dd5badaa2b5932ceaac06
+SHA512: 519dba3c3248a46a7fff623d496f8e881edb867a4afa97947cf5dd9728bdf0c30cc09e7be1976ab63a8814a154c85e6cd2f050dd4929cf144e79753652f6bc45
+Homepage: http://gcc.gnu.org/
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Tag: purpose::library, role::developer
+Name: libgcc_s
+
+Package: libgmp10
+Architecture: iphoneos-arm
+Version: 6.2.1-1
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Suggests: gmp
+Filename: ./rootful/libgmp10_6.2.1-1_iphoneos-arm.deb
+Size: 539340
+MD5sum: 8d5a06397c9d930eb87104f013bfbd8b
+SHA1: a007367e02bd62ebb60c6e29e3f4d38073f6d8eb
+SHA256: 08de40d0fe03789d657fe7067c8dc0b44cb979735732277b8987e08c09816efa
+SHA512: a8821f33f9bb479fe4e044b1df8694048a81e5788fbe816926a5524c68e7f1d48b7362fc694a85fdf50dd0afbb97b7d847f80123875a3d6fb5e7ef9cba7caabc
+Homepage: https://gmplib.org/
+Description: GNU multiple precision arithmetic library
+Tag: purpose::library, role::hacker
+Name: libgmp10
+
+Package: libgmp10
+Architecture: iphoneos-arm
+Version: 6.3.0+dfsg-2
+Multi-Arch: foreign
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: librecompat
+Recommends: gmp
+Filename: ./rootful/libgmp10_6.3.0+dfsg-2_iphoneos-arm.deb
+Size: 274680
+MD5sum: a354581708b24fe3bf626537415c5335
+SHA1: 9e41b0f5b098185e787a7ffa3be1230c04f043de
+SHA256: ece01bfbcc27f24ac390340d6a21bb25973afeec425b37cd5f4350f572a97e90
+SHA512: 7b058cd8562dddfe537bde0f54b16863dfdee303e654e6495b153ec68a98b8d9b2d289dbec8ab8ab9dd8344b003e8cb8636286197325e660b67dbeb8d6d38f96
+Homepage: https://gmplib.org/
+Description: GNU multiple precision arithmetic library
+Tag: purpose::library, role::hacker
+Name: libgmp10
 
 Package: libmysofa
 Architecture: iphoneos-arm
