@@ -116,6 +116,28 @@ Description: Java Development Kit (JDK). OpenJDK is a development environment fo
 Name: Java 8
 Author: congcq
 
+Package: libmysofa
+Architecture: iphoneos-arm
+Version: 1.3.2
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: libmysofa1 (= 1.3.2), libmysofa-utils (= 1.3.2), libmysofa-dev (= 1.3.2)
+Depends: librecompat
+Conflicts: libmysofa1, libmysofa-utils, libmysofa-dev
+Replaces: libmysofa1, libmysofa-utils, libmysofa-dev
+Filename: ./rootful/libmysofa_1.3.2_iphoneos-arm.deb
+Size: 1160700
+MD5sum: a95b00289eee0dc652ba8407cbe6ec31
+SHA1: d46369b160bad0bed4f5b7abaf5d0c552b093fbc
+SHA256: 13f34f672882019e274d760075170115375401ab559fb2a9dbb30ecb81551fe4
+SHA512: e8164d858b553464a12812e9163cfe9e50d93f5055099b249845bc3c508306b8eafdd376dfce93e1e3e3d61cc4ca0b6411cd16fe518ab4aac76f1866c37ac189
+Homepage: https://github.com/hoene/libmysofa
+Description: library to read HRTFs stored in the AES69-2015 SOFA format
+Tag: purpose::library, role::developer
+Name: libmysofa
+
 Package: librecompat
 Architecture: iphoneos-arm
 Version: 0.0.0.001
@@ -161,6 +183,51 @@ Description: Graphics Library
  Notice: Wayland related features may not work (since it highly bounded with libdrm)
 Tag: purpose::library, role::developer
 Name: Mesa
+
+Package: openal-soft
+Architecture: iphoneos-arm
+Version: 1.23.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: Soundboards
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: libopenal-data (= 1.23.1-1), openal-tools (= 1.23.1-1), libopenal1 (= 1.23.1-1), libopenal-dev (= 1.23.1-1)
+Depends: libmysofa1 (>= 0.6~)
+Conflicts: libopenal-data, openal-tools, libopenal1, libopenal-dev
+Breaks: libopenal-dev-bin (<< 1.15.1-5~), makemhr (<< 1.23.1-1~), openal-info (<< 1.23.1-1~)
+Replaces: libopenal-data, openal-tools, libopenal1, libopenal-dev, libopenal-dev-bin (<< 1.15.1-5~), makemhr (<< 1.23.1-1~), openal-info (<< 1.23.1-1~)
+Filename: ./rootful/openal-soft_1.23.1-1_iphoneos-arm.deb
+Size: 474480
+MD5sum: 2b698fc427e74574336f57b4f3f97199
+SHA1: aaeef53a99cf5979cdab553970bf35606599f180
+SHA256: e7c391b314d0434f3dab37cd925577618b404d44aa436b95856aebb2d8f8b490
+SHA512: 9f3279b2594a7c6ccbc713b1647c1dbc0e5d9c0f84514d7393c2effac55088aa66a8b88d6c63f60465638e83d33cda3d55f24683d0d37b304525eda4927048ae
+Homepage: https://github.com/kcat/openal-soft
+Description: Implementation of the OpenAL 3D audio API
+Tag: purpose::library, role::hacker
+Name: OpenAL Soft
+
+Package: opencore-amr
+Architecture: iphoneos-arm
+Version: 0.1.6
+Multi-Arch: foreign
+Priority: optional
+Section: Developement
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: libopencore-amrnb0 (= 0.1.6), libopencore-amrnb-dev (= 0.1.6), libopencore-amrwb0 (= 0.1.6), libopencore-amrwb-dev (= 0.1.6)
+Depends: librecompat
+Conflicts: libopencore-amrnb0, libopencore-amrnb-dev, libopencore-amrwb0, libopencore-amrwb-dev
+Replaces: libopencore-amrnb0, libopencore-amrnb-dev, libopencore-amrwb0, libopencore-amrwb-dev
+Filename: ./rootful/opencore-amr_0.1.6_iphoneos-arm.deb
+Size: 423272
+MD5sum: 4f9aab96c7d0a6a5ff4b6b086d07e9c7
+SHA1: f3b2f2924f03ee2fc1a9db71e3e528c032b04cd8
+SHA256: 42d2e0cbef3ecfbd98a25f32fa0fdf491c675ec2a9dd1aa5736a76661cf44bc4
+SHA512: adfef65370f7e6c6d97e94f876097521011e86476a71ba4aef49124340f207f64da807c89c87b272f9dc2f9561b92b32201447c4b62e6fbc6f3b76231b556afd
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: Audio codecs extracted from Android open source project
+Tag: purpose::library, role::developer
+Name: OpenCORE AMR
 
 Package: shaderc
 Architecture: iphoneos-arm
