@@ -58,6 +58,48 @@ SHA512: ba87f7b7cfcf53ce6e6568e87741c0a9f26e6fb6a009ab7a0accdf27b36633903660a48a
 Description: Unofficial vtool ported from macOS to iOS.
 Name: vtool
 
+Package: glslang
+Architecture: iphoneos-arm
+Version: 12.1.0
+Multi-Arch: foreign
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: glslang-dev (= 12.1.0), glslang-tools (= 12.1.0)
+Depends: spirv-tools (>= 2023.1)
+Conflicts: glslang-dev, glslang-tools
+Replaces: glslang-dev, glslang-tools
+Filename: ./rootful/glslang_12.1.0_iphoneos-arm.deb
+Size: 2130864
+MD5sum: 1a00d922d2d95eb5b9425a80ac82b59c
+SHA1: 417621babab17109d3da75e850574cb575778123
+SHA256: 8574ab510be4991c975f5e9697cf99746345bdff1d10eea73482626f434194ea
+SHA512: b242d307950551db6bbcc456917d71fa3099b19caa3fdd21e7cc3a83c44b6a6d1a1518f9854322031d515a690c85dedbe5c75d64fae1931bb7a393460a77f45e
+Homepage: https://www.khronos.org/opengles/sdk/tools/Reference-Compiler/
+Description: OpenGL and OpenGL ES reference compiler for shading languages
+Tag: purpose::library, role::developer
+Name: glslang
+
+Package: glslang
+Architecture: iphoneos-arm
+Version: 13.1.1
+Multi-Arch: foreign
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Provides: glslang-dev (= 12.1.0), glslang-tools (= 12.1.0)
+Depends: spirv-tools (>= 2023.1)
+Conflicts: glslang-dev, glslang-tools
+Replaces: glslang-dev, glslang-tools
+Filename: ./rootful/glslang_13.1.1_iphoneos-arm.deb
+Size: 2350620
+MD5sum: e080c25cec0179c9246bb6f1a392dd1b
+SHA1: c4427d64c05d295678609776717e3663157688f0
+SHA256: d89bed3ffc07597b7966e3fb2560fa3c2f5e2f49fe2865348f84d33c203f7c7b
+SHA512: 44e35041b06a7c7f3529fdc4db6f3378c417b3d2b7c6314b015d979ecc963572ff6e513873dd39ff593991edc0f5a3de0581c4e6d4e9b2411a8712d3d82314bf
+Homepage: https://www.khronos.org/opengles/sdk/tools/Reference-Compiler/
+Description: OpenGL and OpenGL ES reference compiler for shading languages
+Tag: purpose::library, role::developer
+Name: glslang
+
 Package: java-8-openjdk
 Architecture: iphoneos-arm
 Version: 1.8
