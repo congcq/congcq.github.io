@@ -1,3 +1,19 @@
+Package: cocoa.framework
+Architecture: iphoneos-arm
+Version: 23
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Filename: ./rootful/cocoa.framework_23_iphoneos-arm.deb
+Size: 2128
+MD5sum: 8140c9f2b233aed595c3cff2e0bf0e8f
+SHA1: 34a5b64d7a5d864f256b59a3ac8780107f60f1e2
+SHA256: 8542cca317cbde2eeab3c1f9e708ccd80b206a233358f44b202a880f4a0258a6
+SHA512: 9f760eb115a16a83749c47141de5789aced370deade29bea54253c9314da6648302068da954f2ee272dc49652e42600b8b2f859393670389b551fed4b6b82a8e
+Homepage: https://github.com/Torrekie/Cocoa-ios-stub
+Description: Cocoa.framework just like how macOS does, but no AppKit. I'm lazy to patch things from Cocoa to Foundation
+Tag: purpose::library, role::developer
+Name: Cocoa.framework
+
 Package: com.apple.terminal
 Architecture: iphoneos-arm
 Version: 1.11.2
