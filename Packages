@@ -229,6 +229,23 @@ Description: Audio codecs extracted from Android open source project
 Tag: purpose::library, role::developer
 Name: OpenCORE AMR
 
+Package: python3.12
+Architecture: iphoneos-arm
+Version: 3.12.5-1
+Priority: optional
+Section: Development
+Maintainer: congcq
+Installed-Size: 95580
+Filename: ./rootful/python3.12_3.12.5-1_iphoneos-arm.deb
+Size: 20275552
+MD5sum: 8a8fee7a55cb41bc9c92d5021e6a549b
+SHA1: a4c2fca7a2a05e5956801f7c6d32b8dfd1db952e
+SHA256: ff1c1045c18a5055ea638772e6640726975f74178bf37b12c3c47f8bdb095ccf
+SHA512: 2af1b683427f97588c0485b87e9edb6eb8c978424f788bdf12490185c56cd39e9907b2d61a907ab947d2041432688dc287ba617650ee8cc30aa5fa8ba9d5b130
+Description: Python 3.12.5 for jailbroken iOS. Includes OpenSSL (ssl), ctypes, and pip. Install 'pip' by: 'python -m ensurepip --upgrade'
+Name: python
+Author: congcq
+
 Package: shaderc
 Architecture: iphoneos-arm
 Version: 2023.2-1
