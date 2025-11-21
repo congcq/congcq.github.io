@@ -185,6 +185,29 @@ Description: Java Development Kit (JDK). OpenJDK is a development environment fo
 Name: Java 8
 Author: congcq
 
+Package: libatomic1
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3)
+Filename: ./rootful/libatomic1_13.2.0-3_iphoneos-arm.deb
+Size: 9148
+MD5sum: 258aba952e04c853584de04b1a0d0490
+SHA1: f440ecd6d74d8202df8a8b803697332e4659d41e
+SHA256: a14a80f35925d5fcb4b1329ce5ae8f87271f688891e4c815af71acf47db2ed7e
+SHA512: 4c2e5d63eadf887eb9f0e55d439c10fdac8220694de12777dbdb31d67d48ac71f199f92e585dd2c9a8a3141c829e1c7cd48c8e61c3c594a323abf47db4f4ad9c
+Homepage: http://gcc.gnu.org/
+Description: support library providing __atomic built-in functions
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+ .
+ Not installed to standard library paths.
+Tag: purpose::library, role::developer
+Name: libatomic1
+
 Package: libgcc-13-dev
 Architecture: all
 Version: 13.2.0-3
@@ -285,6 +308,51 @@ Description: GNU multiple precision arithmetic library
 Tag: purpose::library, role::hacker
 Name: libgmp10
 
+Package: libgomp1
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3)
+Filename: ./rootful/libgomp1_13.2.0-3_iphoneos-arm.deb
+Size: 112792
+MD5sum: 75e9ab629ac2878e8721e52da0135c1f
+SHA1: ecc80db436f315700e160db194b4a8a0acce3499
+SHA256: 7956b016af9c66d98dbd8cf14fbd5e9a98c393a25126872b7a3bb79bc0f6357f
+SHA512: 0b784c88faf38ebefb79d2529650d70b0685d9351a17d2cddb8dfd2afd8dc71816ab1753eed1877d943269dc27f1deab4d6692c260f29e97a82fd036874732bd
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+ .
+ Should only used when compiling with GCC, otherwise please use libomp.
+Tag: purpose::library, role::developer
+Name: GCC 13 OpenMP
+
+Package: libitm1
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3)
+Filename: ./rootful/libitm1_13.2.0-3_iphoneos-arm.deb
+Size: 34308
+MD5sum: bd49eb631bbc25bdd8b2774114283b15
+SHA1: 6b5f17632b4961d85425628a479a145156d8fd23
+SHA256: 3e89596eccbea2c7d455becdaa7da7224231c1b4b639e292ea677f81e8745275
+SHA512: 0bd90910f3e7e94cf1778072089fe06e454e5dc72116e8ab179cf88562618e4a90c5c1a8d75c38c4d6c774900686aa722ab6fe1bba8b52cc8a9517c0821b1ed6
+Homepage: http://gcc.gnu.org/
+Description: GNU Transactional Memory Library
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+Tag: purpose::library, role::developer
+Name: libitm1
+
 Package: libmysofa
 Architecture: iphoneos-arm
 Version: 1.3.2
@@ -306,6 +374,28 @@ Homepage: https://github.com/hoene/libmysofa
 Description: library to read HRTFs stored in the AES69-2015 SOFA format
 Tag: purpose::library, role::developer
 Name: libmysofa
+
+Package: libquadmath0
+Architecture: iphoneos-arm
+Version: 13.2.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Torrekie <me@torrekie.dev>
+Depends: gcc-13-base (= 13.2.0-3)
+Filename: ./rootful/libquadmath0_13.2.0-3_iphoneos-arm.deb
+Size: 136360
+MD5sum: c831895b75c29df336fcf889ae9af6c0
+SHA1: 543e03e4465c2f1f2d34a0ff9b287825fa2bc583
+SHA256: ef28450501d2a6e03c4275f576cfaac9c74eb5da9e51d767f7fa4d3dfd8f031b
+SHA512: 62df0ea7bc6c1504aa2dc33ca6f8e49bd82086b415214a34500ee5e8e3e7af2109c6fd80892e80a10d6dfc52efd51b3e74678239c23f80f834be35d134182d41
+Homepage: http://gcc.gnu.org/
+Description: GCC Quad-Precision Math Library
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+Tag: purpose::library, role::developer
+Name: libquadmath0
 
 Package: librecompat
 Architecture: iphoneos-arm
