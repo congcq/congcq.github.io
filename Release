@@ -1,7 +1,10 @@
 Origin: CongChu's Repository
 Label: CongChu's Repository
-Version: 1.0
-Architectures: iphoneos-arm64 iphoneos-arm
 Suite: stable
+Version: 1.0
 Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
+MD5Sum:
+ 418e316e1079a2e41ecb18959e45c2ab 2476 Packages
+ cb80712668232fa251d17561ce570ed0 1285 Packages.bz2

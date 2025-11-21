@@ -1,83 +1,60 @@
-Name: vtool
-Description: Unofficial vtool ported from macOS to iOS.
+Package: com.apple.terminal
+Architecture: iphoneos-arm64
+Version: 1.11.2
+Section: Applications
+Maintainer: Apple Inc.
+Filename: ./rootless/com.apple.terminal_1.11.2_iphoneos-arm64.deb
+Size: 18354924
+MD5sum: 44af8cc730145681ce578180efadc3c2
+SHA1: 9f9c93f22dfda227843c04613faf78655bc0de77
+SHA256: 494c54cffc51f011cf276b586ac26c7ac774f810fd4f93e170f9ca0f6b07fd21
+SHA512: e0760f73801aed948e6790ef16596c757bdaa109f095f5882178b57ee19949b64df987c95193d52952f5b88cfedcb4ebda237ca8aaef4556c9fa49c7bd00c0de
+Description: Secret Native Apple Terminal for iOS
+Name: Terminal
+Author: Tim Apple
+
+Package: com.congcq.libcodedirectory
+Architecture: iphoneos-arm64
+Version: 4.0
+Section: Development
 Maintainer: congcq
+Filename: ./rootless/com.congcq.libcodedirectory_4.0_iphoneos-arm64.deb
+Size: 15428
+MD5sum: 3e294edc341edd97fab5ec7a2bf274a0
+SHA1: 362cd10c7b106cd094c27a64034b7e05c1e4b3a6
+SHA256: d14f839c60063d93806506f9c458a240601baf37fbfa5d43990ec42717b6d936
+SHA512: a21c2f5272eaaf44704919f61ab9b5c7afb8c87bf3a1da4c76cbf9d7385e0df22dec8f072b42fdd99d9198b1c3ff9e11cc0cf0f91686f14bbc801114c78a927c
+Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
+Name: libcodedirectory
+
 Package: com.congcq.vtool
 Architecture: iphoneos-arm64
 Version: 2.1.0
 Section: Development
+Maintainer: congcq
 Depends: com.congcq.libcodedirectory (>= 4.0)
 Filename: ./rootless/com.congcq.vtool_2.1.0_iphoneos-arm64.deb
 Size: 20204
 MD5sum: 8b95236771fbfd96b91f5c25a21386ae
 SHA1: 3aa3ed9a13a0dc3c482359ebad0eec2ffccd32a6
 SHA256: 1fee2a806b7749eaad1708ec26efd5e8365d14ee42a0a1f936515776ade04127
-
-Name: vtool
+SHA512: f502bc3893f04e509b62b730b0f83cb5de8628adc1449a9670d8c58ac181caf842fcf342240d357a11db49cae773df7ea3149ce03d56fa75832b63ff6b0d3aa6
 Description: Unofficial vtool ported from macOS to iOS.
-Maintainer: congcq
-Package: com.congcq.vtool
-Architecture: iphoneos-arm
-Version: 2.1.0
-Section: Development
-Depends: com.congcq.libcodedirectory (>= 4.0)
-Filename: ./rootful/com.congcq.vtool_2.1.0_iphoneos-arm.deb
-Size: 20144
-MD5sum: 3535fe3996675e5233e2f48a80c78bce
-SHA1: 3ec91481b1a7240e9d31200af54e343f49d3ce68
-SHA256: c087be40b75962e03cf0fd333616b289dd0eece05bba671fff68e2001dca7d60
+Name: vtool
 
-Name: libcodedirectory
-Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
-Maintainer: congcq
-Package: com.congcq.libcodedirectory
-Architecture: iphoneos-arm64
-Version: 4.0
-Section: Development
-Filename: ./rootless/com.congcq.libcodedirectory_4.0_iphoneos-arm64.deb
-Size: 15428
-MD5sum: 3e294edc341edd97fab5ec7a2bf274a0
-SHA1: 362cd10c7b106cd094c27a64034b7e05c1e4b3a6
-SHA256: d14f839c60063d93806506f9c458a240601baf37fbfa5d43990ec42717b6d936
-
-Name: libcodedirectory
-Description: Unofficial libcodedirectory ported from macOS to iOS for vtool.
-Maintainer: congcq
-Package: com.congcq.libcodedirectory
-Architecture: iphoneos-arm
-Version: 4.0
-Section: Development
-Filename: ./rootful/com.congcq.libcodedirectory_4.0_iphoneos-arm.deb
-Size: 15376
-MD5sum: 27aeb192603dcf080b56fb8a27b5c370
-SHA1: 670d0060a654e4135fb6442259cd7ac079fa5728
-SHA256: 6f79be30137aea1174147601848961ef17fcc6a1fc073823e406e26aae3eacb7
-
-Name: Java 8
-Description: 
-Maintainer: congcq
-Author: congcq
 Package: java-8-openjdk
+Architecture: iphoneos-arm64
 Version: 1.8
 Section: Development
-Filename: ./rootless/java-8-openjdk_1.8_iphoneos-arm64.deb
-Size: 10381800
-Installed-Size: 48230
-MD5sum: b396bc6443bbcf84667f149a305d156e
-SHA1: 0fd532ba8cd1949ad2702e2c278f477dd020a9ca
-SHA256: 99ebde23f43dbfbd357bbfa2def1feb6e436d33467d9587043c75d37330359dc
-SHA512: 5ded99aac6ed0fa686c8c01bd03647dd2db0705a2a3f5f7a7cca04662b15e417ae8e452bdbd4a4a1e360f80e7fd7a0ffc1563795e3e88376cfad569c904ed61c
-
-Name: JRE 8
-Description: 
 Maintainer: congcq
+Installed-Size: 151142
+Filename: ./rootless/java-8-openjdk_1.8_iphoneos-arm64.deb
+Size: 38058152
+MD5sum: 9cf394cc1dcffd91c30d520007706985
+SHA1: 58da816f55788a96d25bcf7ce85cec1a273951fe
+SHA256: 328504670710abfd8d961d698b1eeeec8b97d42cb89f8fd4d74974de9631cc11
+SHA512: 1bc84b10f93ab4b6503277cb7ce040b3dbc8a3717729d25e3d816efaa1581bf6f49d27cad44b1d7efc04e3c3104702dc2284b4c92b95ca6722eae3745acffe0e
+Description: Java Development Kit (JDK). OpenJDK is a development environment for building applications, applets, and components using the Java programing language.
+Name: Java 8
 Author: congcq
-Package: java-8-jre
-Version: 1.8
-Section: Development
-Filename: ./rootless/java-8-jre_1.8_iphoneos-arm64.deb
-Size: 27653656
-Installed-Size: 102912
-MD5sum: 2ad082af9c5ad6dedfc61c03881edc38
-SHA1: d1563a24dcb84e86af8c53f0b2c741390197fc48
-SHA256: b1452491f56279682baa81a644faff7cb743e2d02cf6b0d8c8d6b80a7939eeaf
-SHA512: 482a65d11a768af830c2f511a5f16c2b23f1f74459cf742551387c6df0b0239bb2c646573ce3741e89a10ef094941e6f7ba7a6d9dd8a11b4dfaebcacded9cba0
+
