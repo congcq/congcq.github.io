@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # https://github.com/bvnsupport/bvnsupport.github.io/
 function building() {

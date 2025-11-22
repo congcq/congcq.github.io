@@ -29,6 +29,21 @@ Description: Secret Native Apple Terminal for iOS
 Name: Terminal
 Author: Tim Apple
 
+Package: com.congcq.bgfx-mcbe-shaderc
+Architecture: iphoneos-arm
+Version: 1.18.121
+Section: Development
+Maintainer: congcq
+Filename: ./rootful/com.congcq.bgfx-mcbe-shaderc_1.18.121_iphoneos-arm.deb
+Size: 2185132
+MD5sum: 62f3d95ae80c988fda721f95d88214bb
+SHA1: bb96ab958f0c751d7fc1734b73b437eef93996b9
+SHA256: f7202415b2b5d780c917ae7efbc465ae3f4133bcfce6a0009fd7cc46b6cdbf57
+SHA512: 5e94002d6660577ba43f5b49abde5ef83e04ae39e148bda2684ff1fe0a796096cd08fee16b61e88f22cf275dc8a7bcb1faa53e3dce716cc7502364ea4734c289
+Description: shaderc need for compiling newb-mcbe or other Minecraft Bedrock Edition shader on iOS.
+Name: bgfx-mcbe shaderc
+Author: congcq
+
 Package: com.congcq.libcodedirectory
 Architecture: iphoneos-arm
 Version: 4.0
@@ -700,6 +715,21 @@ SHA512: e0760f73801aed948e6790ef16596c757bdaa109f095f5882178b57ee19949b64df987c9
 Description: Secret Native Apple Terminal for iOS
 Name: Terminal
 Author: Tim Apple
+
+Package: com.congcq.bgfx-mcbe-shaderc
+Architecture: iphoneos-arm64
+Version: 1.18.121
+Section: Development
+Maintainer: congcq
+Filename: ./rootless/com.congcq.bgfx-mcbe-shaderc_1.18.121_iphoneos-arm64.deb
+Size: 2187324
+MD5sum: d1be3ac04f809f3f40d83e35b03a8439
+SHA1: 5785763d76ab4b13b5e942f2a0e3303df98a977e
+SHA256: db6c3a687a9ed17347317fa0c171e42f85d3baf4d491456d1b00be3c096adcd4
+SHA512: 010b8a8b260186c7f580fd1b0fd6f4d70943d27e9ea709c3226d792e70a899efaac0fbb2d73ffa3adb30ce5969b36b4edb358d0e0595ab7dd81175b0c7448729
+Description: shaderc need for compiling newb-mcbe or other Minecraft Bedrock Edition shader on iOS.
+Name: bgfx-mcbe shaderc
+Author: congcq
 
 Package: com.congcq.libcodedirectory
 Architecture: iphoneos-arm64
